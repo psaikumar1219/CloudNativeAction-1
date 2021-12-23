@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: cloudnativeaction
+  name: saikumar01
 spec:
   selector:
-    app: cloudnativeaction-pod
+    app: saikumar01-pod
   ports:
   - port: 5000
     targetPort: 5000
