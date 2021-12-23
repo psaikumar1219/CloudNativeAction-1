@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: cloudnativeacr01.azurecr.io/saikumar01:latest
+        image: cloudnativeacr01.azurecr.io/saikumar01:v1
         resources:
           limits:
             memory: "128Mi"
